@@ -26,9 +26,8 @@ Scale.default.set(scales[temp]()['major13'], tuning=equal(temp))
 
 # Equal temparent other than octave tunings w/ scales
 
-print(Tuning.bohlen_pierce)
 Scale.default.set(Scale.major, tuning=Tuning.bohlen_pierce)
 
 # Just Intonation tunings w/ scales
 
-print(Tuning.Just)
+Scale.default.set(Scale.major, tuning=Tuning.just)
