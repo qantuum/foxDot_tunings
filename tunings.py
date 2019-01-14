@@ -13,6 +13,8 @@ class ET17:
     chromatic = PRange(18),
     otonal = P[0,3,5,8,10,12,14],
     neutral = P[0,2,5,7,10,12,15],
+    
+Scale.default.set(ET17.otonal,tuning=ET17.tuning)
 
 ################## Equal temparent other than octave tunings w/ scales ##################
 
