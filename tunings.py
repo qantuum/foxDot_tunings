@@ -2,21 +2,32 @@
 
 # Equal Temperament tunings w/ scales
 
-Tuning.ET5 = PRange(6)*12/5
-print(Tuning.ET5)
+# auto-done part
+# def tuning function
+def equal(temp):    
+    return PRange(temp+1)*12/temp
+# def scales functions - Careful, when len(tuning) != 12, the scales pre-defined in the Scale class will not work properly
+def scales13() :
+   return {
+     'major13':P[0,2,6,8,9,11,12]
+   }
+# var scales dictionary
+scales = {
+  13:scales13
+}
 
-Tuning.ET6 = PRange(7)*12/6
-print(Tuning.ET6)
+# input your temperament here :
+temp = 13
+print(equal(temp))
+print(scales[temp]())
 
-Tuning.ET7 = PRange(8)*12/7
-print(Tuning.ET7)
-
-Tuning.ET10 = PRange(11)*12/10
-print(Tuning.ET10)
+# Set scale default - now it requires to know the scale name (see print output above)
+Scale.default.set(scales[temp]()['major13'], tuning=equal(temp))
 
 # Equal temparent other than octave tunings w/ scales
 
 print(Tuning.bohlen_pierce)
+Scale.default.set(Scale.major, tuning=Tuning.bohlen_pierce)
 
 # Just Intonation tunings w/ scales
 
