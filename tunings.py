@@ -6,7 +6,7 @@
 
 class ET14:
     tuning = PRange(15)*12/14
-    chromatic = PRange(15)  
+    chromatic = PRange(15)
 
 class ET17:
     tuning = PRange(18)*12/17
