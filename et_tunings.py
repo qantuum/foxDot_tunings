@@ -75,7 +75,3 @@ Scale.default.set(ET17.otonal,tuning=ET17.tuning)
 ################## Equal temparent other than octave tunings w/ scales ##################
 
 Scale.default.set(Scale.major, tuning=Tuning.bohlen_pierce)
-
-################## Just Intonation tunings w/ scales ##################
-
-Scale.default.set(Scale.major, tuning=Tuning.just)
