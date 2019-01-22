@@ -66,7 +66,7 @@ class ET20:
     diminished = cumulative([0,3,2,3,2,3,2,3])
     major = cumulative([0,4,3,1,4,3,4])
     minor = cumulative([0,4,1,3,4,1,4])
-    chromatic12 = cumulative([0,2 2,1,2,1,2,2,1,2,2,2])
+    chromatic12 = cumulative([0,2,2,1,2,1,2,2,1,2,2,2])
     zweifelMajor = cumulative([0,2,2,2,2,1,2,2,2,2,1])
     zweifelMinor = cumulative([0,2,1,2,2,2,2,2,1,2,2])
     majorQuasi = cumulative([0,3,3,3,3,3,3])
