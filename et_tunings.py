@@ -56,7 +56,25 @@ class ET18:
 class ET20:
     tuning = PRange(21)*12/20
     chromatic = PRange(21)
-    blackwood10 = [0,3,4,7,8,11,12,15,16,19]
+    blackwood10Major = cumulative([0,3,1,3,1,3,1,3,1,3])
+    blackwood10Minor = cumulative([0,1,3,1,3,1,3,1,3,1])
+    balzano9 = cumulative([0,2,3,2,2,2,3,2,2])
+    balzano11 = cumulative([0,2,2,2,2,1,2,2,2,2,2])
+    balzano9Inverse = cumulative([0,2,2,2,3,2,2,2,3])
+    balzano11Inverse = cumulative([0,1,2,2,2,2,2,1,2,2,2])
+    octatonic = cumulative([0,2,3,2,3,2,3,2])
+    diminished = cumulative([0,3,2,3,2,3,2,3])
+    major = cumulative([0,4,3,1,4,3,4])
+    minor = cumulative([0,4,1,3,4,1,4])
+    chromatic12 = cumulative([0,2 2,1,2,1,2,2,1,2,2,2])
+    zweifelMajor = cumulative([0,2,2,2,2,1,2,2,2,2,1])
+    zweifelMinor = cumulative([0,2,1,2,2,2,2,2,1,2,2])
+    majorQuasi = cumulative([0,3,3,3,3,3,3])
+    minorQuasi = cumulative([0,3,2,3,3,3,3])
+    rotenberg = cumulative([0,3,2,2,2,2,3,2,2])
+    stearnsMajor = cumulative([0,3,4,1,4,3,3])
+    pentatonic = cumulative([0,7,2,7,2])
+    antiDiatonic = cumulative([0,5,2,2,5,2,2])
     
 class ET22:
     tuning = PRange(23)*12/22
