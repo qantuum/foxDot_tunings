@@ -10,12 +10,11 @@ Scale.default.set(Scale.major, tuning=Tuning.just)
 def toCent(exp):
     if (isinstance(exp, list)):
         for index in range(len(exp)):
-            if index != 0:
-                exp[index] = 12*math.log2(exp[index])
+            exp[index] = 12*math.log2(exp[index])
         return exp
     else:
         return exp
 
 class JI:
-  highschool1 = toCent([0,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
+  highschool1 = toCent([1,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
 
