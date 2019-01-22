@@ -8,9 +8,10 @@ Scale.default.set(Scale.major, tuning=Tuning.just)
 
 # let's convert ratios to cents
 def toCent(exp):
+    import math
     if (isinstance(exp, list)):
         for index in range(len(exp)):
-            exp[index] = 12*math.log2(exp[index])
+            exp[index] = 12*math.log(exp[index], 2)
         return exp
     else:
         return exp
