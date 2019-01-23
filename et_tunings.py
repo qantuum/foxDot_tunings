@@ -80,6 +80,20 @@ class ET22:
     tuning = PRange(23)*12/22
     chromatic = PRange(23)
     porcupine = [0,3,6,9,13,16,19]
+    
+class ET23:
+    tuning = PRange(24)*12/22
+    chromatic = PRange(24)
+    keter = cumulative([0,2,2,2,3,2,2,3,2,2])
+    chesed = cumulative([0,2,2,3,2,2,3,2,2,3])
+    netzach = cumulative([0,2,3,2,2,3,2,2,3,2])
+    malkuth = cumulative([0,3,2,2,3,2,2,3,2,2])
+    binah = cumulative([0,2,2,3,2,2,3,2,2,2])
+    tiferet = cumulative([0,2,3,2,2,3,2,2,2,3])
+    yesod = cumulative([0,3,2,2,3,2,2,2,3,2])
+    chokmah = cumulative([0,2,2,3,2,2,2,3,2,2])
+    gevurah = cumulative([0,2,3,2,2,2,3,2,2,3])
+    hod = cumulative([0,3,2,2,2,3,2,2,3,2])
 
     
 class ET36:
