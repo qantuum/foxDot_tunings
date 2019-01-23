@@ -16,6 +16,6 @@ def toCent(exp):
     else:
         return exp
 
-class JI:
-  highschool1 = toCent([1,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
+class JI_highschhol1:
+  tuning = toCent([1,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
 
