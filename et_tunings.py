@@ -4,7 +4,17 @@
 
 ################## Equal Temperament tunings (select a class) ##################
 
-# abstract class for distributing names method and cumulative calculation   
+# global method to return cumulative sum
+def cumulative(exp):
+        if (isinstance(exp, Pattern)):
+            for index in range(len(exp)):
+                if index != 0:
+                    exp[index] = exp[index-1]+exp[index]
+            return exp
+        else:
+            return exp
+
+# abstract class for distributing names method
 class Tunings:
     def library(self):
         lib = []
@@ -13,14 +23,6 @@ class Tunings:
         return dict(lib)
     def names(self):
         return sorted(self.library().keys())
-    def cumulative(exp):
-        if (isinstance(exp, Pattern)):
-            for index in range(len(exp)):
-                if index != 0:
-                    exp[index] = exp[index-1]+exp[index]
-            return exp
-        else:
-            return exp
 
 class ET10(Tunings):
     tuning = PRange(11)*12/10
