@@ -1,8 +1,7 @@
-################## Copy/Paste your method of choice in FoxDot IDE ##################
-
-################## Find out about these scale names on https://en.xen.wiki/ ##################
+################## Scales and tuning names can be researched on https://en.xen.wiki/ ##################
 
 ################## Equal Temperament tunings (select a class) ##################
+################## "ET" or "Equal Temperament" can also be defined as "EDO" or "Equal Division of Octive"
 
 # global method to return cumulative sum
 def cumulative(exp):
@@ -117,10 +116,12 @@ class ET36(Tunings):
     tuning = PRange(37)*12/36
     chromatic = PRange(37)
 
+# application example
 
-    
+print(ET17().names())
+
 Scale.default.set(ET17.otonal,tuning=ET17.tuning)
 
-################## Equal temparent other than octave tunings w/ scales ##################
+################## Equal temparent other than octave tunings w/ scales, these are not EDOs since our reference space is not an octive ##################
 
 Scale.default.set(Scale.major, tuning=Tuning.bohlen_pierce)
