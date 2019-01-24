@@ -26,14 +26,7 @@ class Tunings:
 class ET10(Tunings):
     tuning = PRange(11)*12/10
     chromatic = PRange(11)
-    minor = [0,2,3,4,6,7,8]
-    def library(self):
-        lib = []
-        for items in (self.__class__.__dict__.items(), self.__dict__.items()):
-            lib.extend([(key, value) for key, value in items if isinstance(value, (Pattern))])
-        return dict(lib)
-    def names(self):
-        return sorted(self.library().keys())
+    minor = P[0,2,3,4,6,7,8]
     
 class ET11(Tunings):
     tuning = PRange(12)*12/11
