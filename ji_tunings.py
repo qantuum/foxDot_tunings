@@ -29,7 +29,10 @@ class Tunings:
             return exp
     
 class Highschool1(Tunings):
-  tuning = Tunings.toCent(P[1,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
+    tuning = Tunings.toCent(P[1,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
 
 class CarlosHarm(Tunings):
-  tuning = Tunings.toCent(P[1,17/16,9/8,19/16,5/4,21/16,11/8,3/2,13/8,27/16,7/4,15/8])
+    tuning = Tunings.toCent(P[1,17/16,9/8,19/16,5/4,21/16,11/8,3/2,13/8,27/16,7/4,15/8])
+
+class Sevish(Tunings)
+    tuning = Tunings.toCent(P[1,33/32,9/8,7/6,5/4,21/16,11/8,3/2,77/48,5/3,27/16,7/4])
