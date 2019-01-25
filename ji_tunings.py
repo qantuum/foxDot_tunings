@@ -9,7 +9,7 @@ Scale.default.set(Scale.major, tuning=Tuning.just)
 # let's convert ratios to cents
 def toCent(exp):
     import math
-    if (isinstance(exp, list)):
+    if (isinstance(exp, Pattern)):
         for index in range(len(exp)):
             exp[index] = 12*math.log(exp[index], 2)
         return exp
@@ -17,5 +17,5 @@ def toCent(exp):
         return exp
 
 class JI_highschhol1:
-  tuning = toCent([1,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
+  tuning = toCent(P[1,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
 
