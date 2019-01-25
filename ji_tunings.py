@@ -26,6 +26,6 @@ class Tunings:
     def names(self):
         return sorted(self.library().keys())
     
-class Highschhol1(Tunings):
+class Highschool1(Tunings):
   tuning = toCent(P[1,21/20,9/8,6/5,5/4,4/3,7/5,3/2,8/5,5/3,7/4,15/8])
 
