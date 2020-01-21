@@ -106,6 +106,15 @@ class ET23(Tunings):
     gevurah = Tunings.cumulative(P[0,2,3,2,2,2,3,2,2,3])
     hod = Tunings.cumulative(P[0,3,2,2,2,3,2,2,3,2])
 
+class ET24(Tunings):
+    tuning = PRange(25)*12/24
+    chromatic = PRange(25)
+    makam_segah = Tunings.cumulative(P[0,3,4,4,3,3,4])
+    makam_huzzam = Tunings.cumulative(P[0,3,4,2,6,2,4])
+    makam_hicazkar = Tunings.cumulative(P[0,2,5,3,4,2,5])
+    makam_mahur = Tunings.cumulative(P[0,4,3,3,4,4,4])
+    makam_rast = Tunings.cumulative(P[0,4,3,3,4,4,3])
+    makam_ussak = Tunings.cumulative(P[0,3,3,4,4,2,4])
     
 class ET36(Tunings):
     tuning = PRange(37)*12/36
