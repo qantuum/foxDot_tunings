@@ -119,6 +119,26 @@ class ET24(Tunings):
 class ET36(Tunings):
     tuning = PRange(37)*12/36
     chromatic = PRange(37)
+    
+# non-octive based tunings must include a redifinition of our interval range. For example, re-creating the Boehlen-Pierce scale goes like:
+
+class BoehlenPierceII:
+    tuningfreq = 3**(PRange(14)/13)
+    tuning=[]
+    for i in tuningfreq:
+        tuning.append(math.log(i,2)*12)
+        
+# as you see, we need to redigine our intervals first, then convert them to cents.
+
+# Now let us go with a nice tunings discovered by James Mulvale, the Sweetie
+
+class Sweetie(Tunings):
+    tuningfreq = (23/16)**(PRange(9)/8)
+    tuning=[]
+    for i in tuningfreq:
+        tuning.append(math.log(i,2)*12)
+        
+#the Sweetie generates nice, warm-sounding notes. It is the division in 8 disting pitches, of the ratio 23/16, as opposed to the octave, which is 2/1; or the tritave, which is 3/1.
 
 # application example
 
