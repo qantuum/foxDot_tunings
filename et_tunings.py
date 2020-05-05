@@ -138,7 +138,7 @@ class Sweetie(Tunings):
     tuning=[]
     for i in tuningfreq:
         tuning.append(math.log(i,2)*12)
-    chromatic = Prange(9)
+    chromatic = PRange(9)
         
 #the Sweetie generates nice, warm-sounding notes. It is the division in 8 disting pitches, of the ratio 23/16, as opposed to the octave, which is 2/1; or the tritave, which is 3/1.
 
