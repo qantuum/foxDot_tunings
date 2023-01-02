@@ -36,3 +36,7 @@ class CarlosHarm(Tunings):
 
 class Sevish(Tunings):
     tuning = Tunings.toCent(P[1,33/32,9/8,7/6,5/4,21/16,11/8,3/2,77/48,5/3,27/16,7/4])
+    
+class Hexany(Tunings):
+    hexany_1379 = Tunings.toCent(P[1,7/6,4/3,3/2,14/9,7/4])
+    hexany_1359 = Tunings.toCent(P[1,9/8,5/4,3/2,45/32,27/16,15/8])
