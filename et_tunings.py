@@ -67,7 +67,7 @@ class ET14(Tunings):
     mos38 = Tunings.cumulative(P[0,1,2,1,1,1,2,1,1,1,2])
     mos210 = Tunings.cumulative(P[0,1,1,2,1,1,1,1,1,2,1,1])
     mos111 = Tunings.cumulative(P[0,1,1,1,1,1,3,1,1,1,1,1])
-    mos112 = Tunings.cumulative(P[0,1,1,1,1,1,1,2,1,1,1,1,1)]
+    mos112 = Tunings.cumulative(P[0,1,1,1,1,1,1,2,1,1,1,1,1])
 
 class ET17(Tunings):
     tuning = PRange(18)*12/17
