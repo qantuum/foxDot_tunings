@@ -87,6 +87,7 @@ class ET18(Tunings):
     chromatic = PRange(19)
     minor = P[0,3,5,8,11,13,15]
     major = P[0,3,6,8,11,14,17]
+    mos43 = Tunings.cumulative(P[0,3,2,3,2,3,3])                            
     
 class ET20(Tunings):
     tuning = PRange(21)*12/20
