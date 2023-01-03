@@ -54,26 +54,33 @@ class ET14(Tunings):
     tuning = PRange(15)*12/14
     chromatic = PRange(15)
     major = P[0,2,4,6,9,11,133]
-    mos21=Tunings.cumulative(P[0,5,4])
-    mos32=Tunings.cumulative(P[0,1,4,1,4])
-    mos41=Tunings.cumulative(P[0,3,2,3,3])
-    mos42=Tunings.cumulative(P[0,1,3,3,1,3])
-    modmos24=Tunings.cumulative(P[0,2,2,2,2,3])
-    modmos42=Tunings.cumulative(P[0,1,3,1,3,3])
-    mos62=Tunings.cumulative(P[0,2,1,2,2,2,1,2])
-    modmos62=Tunings.cumulative(P[0,1,2,2,2,2,1,2])
-    mos54=Tunings.cumulative(P[0,1,2,1,2,1,2,1,2])
-    mos46=Tunings.cumulative(P[0,2,1,2,1,1,2,1,2,1])
-    mos38=Tunings.cumulative(P[0,2,1,1,1,2,1,1,1,2,1])
-    mos210=Tunings.cumulative(P[0,1,2,1,1,1,1,1,2,1,1,1])
-    mos111=Tunings.cumulative(P[0,1,1,1,1,3,1,1,1,1,1,1])
-    mos112=Tunings.cumulative(P[0,1,1,1,1,1,2,1,1,1,1,1,1)]
+    mos21 = Tunings.cumulative(P[0,5,4])
+    mos32 = Tunings.cumulative(P[0,4,1,4,1])
+    mos41 = Tunings.cumulative(P[0,3,3,2,3])
+    mos42 = Tunings.cumulative(P[0,3,1,3,3,1])
+    modmos24 = Tunings.cumulative(P[0,3,2,2,2,2])
+    modmos42 = Tunings.cumulative(P[0,3,1,3,1,3])
+    mos62 = Tunings.cumulative(P[0,2,2,1,2,2,2,1])
+    modmos62 = Tunings.cumulative(P[0,2,1,2,2,2,2,1])
+    mos54 = Tunings.cumulative(P[0,2,1,2,1,2,1,2,1])
+    mos46 = Tunings.cumulative(P[0,1,2,1,2,1,1,2,1,2])
+    mos38 = Tunings.cumulative(P[0,1,2,1,1,1,2,1,1,1,2])
+    mos210 = Tunings.cumulative(P[0,1,1,2,1,1,1,1,1,2,1,1])
+    mos111 = Tunings.cumulative(P[0,1,1,1,1,1,3,1,1,1,1,1])
+    mos112 = Tunings.cumulative(P[0,1,1,1,1,1,1,2,1,1,1,1,1)]
 
 class ET17(Tunings):
     tuning = PRange(18)*12/17
     chromatic = PRange(18)
     otonal = P[0,3,5,8,10,12,14]
     neutral = P[0,2,5,7,10,12,15]
+    bleu7 = Tunings.cumulative(P[0,5,2,2,2,2,2])
+    machine6 = Tunings.cumulative(P[0,2,3,3,3,3])
+    huxley9 = Tunings.cumulative(P[0,1,1,3,1,3,1,3,1])
+    maqamic7 = Tunings.cumulative(P[0,2,2,3,2,3,2])
+    sqwares8 = Tunings.cumulative(P[0,4,1,4,1,1,4,1,1])
+    supra7 = Tunings.cumulative(P[0,3,3,3,1,3,3])
+    progress7 = Tunings.cumulative(P[0,1,1,1,6,1,1])                            
     
 class ET18(Tunings):
     tuning = PRange(19)*12/18
