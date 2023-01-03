@@ -4,7 +4,6 @@
 Scale.default.set(Scale.major, tuning=Tuning.just)
 
 # see JI collection @ https://en.xen.wiki/w/Gallery_of_12-tone_just_intonation_scales
-# this JI collection offers JI tunings of 12 notes that form an octave.
 
 # abstract class for distributing names method
 class Tunings:
