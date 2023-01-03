@@ -115,7 +115,15 @@ class ET20(Tunings):
 class ET22(Tunings):
     tuning = PRange(23)*12/22
     chromatic = PRange(23)
-    porcupine = P[0,3,6,9,13,16,19]
+    porcupine7 = Tunings.cumulative(P[0,3,3,3,4,3,3])
+    orwell5 = Tunings.cumulative(P[0,5,5,2,5])
+    orwell9 =  Tunings.cumulative(P[0,2,3,2,3,2,3,2,3])
+    magic7 = Tunings.cumulative(P[0,1,6,1,6,1,6])
+    superpyth5 = Tunings.cumulative(P[0,4,5,4,5])
+    superpyth7 = Tunings.cumulative(P[0,4,1,4,4,4,1])
+    hedgehog6 = Tunings.cumulative(P[0,3,5,3,3,5])
+    astrology6 = Tunings.cumulative(P[0,4,3,4,4,3])
+    doublewide6 = Tunings.cumulative(P[0,5,5,1,5,5])
     
 class ET23(Tunings):
     tuning = PRange(24)*12/22
