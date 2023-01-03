@@ -124,6 +124,17 @@ class ET22(Tunings):
     hedgehog6 = Tunings.cumulative(P[0,3,5,3,3,5])
     astrology6 = Tunings.cumulative(P[0,4,3,4,4,3])
     doublewide6 = Tunings.cumulative(P[0,5,5,1,5,5])
+    zarlinoJustMaj = Tunings.cumulative(P[0,4,3,2,4,3,4])
+    zarlinoMinor = Tunings.cumulative(P[0,4,2,3,4,2,4])
+    tetraChordMaj = Tunings.cumulative(P[0,4,3,2,4,4,3])
+    tetraChordMin = Tunings.cumulative(P[0,4,2,3,4,2,3])
+    justMaj5 = Tunings.cumulative(P[0,4,3,6,3])
+    justMin5 = Tunings.cumulative(P[0,6,3,4,6])
+    porcuBrightMaj = Tunings.cumulative(P[0,4,3,3,3,3,4])
+    porcuBrightMin = Tunings.cumulative(P[0,4,2,4,3,3,3])
+    porcuDarkMin = Tunings.cumulative(P[0,4,2,3,4,3,3])
+    marvelDoubleHMaj = Tunings.cumulative(P[0,2,5,2,4,2,5])
+    marvel6 = Tunings.cumulative(P[0,5,2,6,2,5])
     
 class ET23(Tunings):
     tuning = PRange(24)*12/22
