@@ -11,3 +11,6 @@ It designates +/- the same concepts...
 
 JI stands for Just Intonation.  
 It designates the fact of messing around the pitch frequency ratios.  
+
+I've used two different classes to build such tunings in FoxDot, because, EDO tunings can be generated only using cents,
+while JI tunings involve frequency ratios, that then are converted to cents.
