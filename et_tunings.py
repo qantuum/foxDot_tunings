@@ -29,6 +29,9 @@ class ET10(Tunings):
     tuning = PRange(11)*12/10
     chromatic = PRange(11)
     minor = P[0,2,3,4,6,7,8]
+    mos26 = Tunings.cumulative(P[0,2,1,1,1,2,1,1])
+    mos17 = Tunings.cumulative(P[0,3,1,1,1,1,1,1])
+    mos18 = Tunings.cumulative(P[0,2,1,1,1,1,1,1,1])
     
 class ET11(Tunings):
     tuning = PRange(12)*12/11
