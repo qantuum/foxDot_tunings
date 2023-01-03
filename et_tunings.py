@@ -54,6 +54,20 @@ class ET14(Tunings):
     tuning = PRange(15)*12/14
     chromatic = PRange(15)
     major = P[0,2,4,6,9,11,133]
+    mos21=Tunings.cumulative(P[0,5,4])
+    mos32=Tunings.cumulative(P[0,1,4,1,4])
+    mos41=Tunings.cumulative(P[0,3,2,3,3])
+    mos42=Tunings.cumulative(P[0,1,3,3,1,3])
+    modmos24=Tunings.cumulative(P[0,2,2,2,2,3])
+    modmos42=Tunings.cumulative(P[0,1,3,1,3,3])
+    mos62=Tunings.cumulative(P[0,2,1,2,2,2,1,2])
+    modmos62=Tunings.cumulative(P[0,1,2,2,2,2,1,2])
+    mos54=Tunings.cumulative(P[0,1,2,1,2,1,2,1,2])
+    mos46=Tunings.cumulative(P[0,2,1,2,1,1,2,1,2,1])
+    mos38=Tunings.cumulative(P[0,2,1,1,1,2,1,1,1,2,1])
+    mos210=Tunings.cumulative(P[0,1,2,1,1,1,1,1,2,1,1,1])
+    mos111=Tunings.cumulative(P[0,1,1,1,1,3,1,1,1,1,1,1])
+    mos112=Tunings.cumulative(P[0,1,1,1,1,1,2,1,1,1,1,1,1)]
 
 class ET17(Tunings):
     tuning = PRange(18)*12/17
