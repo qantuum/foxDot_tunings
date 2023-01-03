@@ -9,8 +9,7 @@ EDO means Equal Division of Octive.
 ET means Equal Temperament.  
 EDO and ET are interchangeable designations [(article)](https://sevish.com/2016/whats-the-difference-between-et-and-edo/)
 
-JI stands for Just Intonation.  
-It designates the fact of messing around the pitch frequency ratios.  
+JI stands for Just Intonation. It means each note pitch has a specific frequency.
 
 I've used two different classes to build such tunings in FoxDot, because, EDO tunings can be generated only using cents,
 while JI tunings involve frequency ratios, that then are converted to cents.
