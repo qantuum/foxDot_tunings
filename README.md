@@ -7,7 +7,7 @@ The xen wiki has a powerful research tool that can be used. Exemple for the ET20
 
 EDO means Equal Division of Octive.  
 ET means Equal Temperament.  
-It designates +/- the same concepts...  
+EDO and ET are interchangeable designations [(article)](https://sevish.com/2016/whats-the-difference-between-et-and-edo/)
 
 JI stands for Just Intonation.  
 It designates the fact of messing around the pitch frequency ratios.  
